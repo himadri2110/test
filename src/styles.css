@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 2rem;
+  margin: auto;
+}
+
+/* FORM */
+
+.form-group {
+  max-width: 30rem;
+  margin: 1rem auto;
+}
+
+.input textarea {
+  font-size: 1.2rem;
+  padding: 0.5rem 0.75rem;
+  color: var(--text-color);
+  border-radius: var(--border-radius);
+  outline: none;
+}
+
+.input-primary textarea {
+  border: 2px solid var(--primary-color);
+}
+
+.input-group {
+  margin: 0.5rem 0;
+}
+
+/* Note */
+
+.notes-wrapper {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card-color {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.btn-color {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--text-secondary);
+  margin: 0.5rem;
+  /* padding: 0; */
+}
+
+.btn-secondary.btn-color {
+  background-color: #f3f3f3;
+}
+
+.btn-primary.btn-color {
+  background-color: #90def8;
+}
+
+.btn-success.btn-color {
+  background-color: #84f084;
+}
+
+.btn-warning.btn-color {
+  background-color: #ffff82;
+}
+
+.btn-danger.btn-color {
+  background-color: #ffa6b3;
+}
+
+.card-action {
+  display: flex;
+}
+
+.card-action button {
+  margin: 0 0.5rem;
+}
